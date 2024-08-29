@@ -1,0 +1,28 @@
+# Entorno virtual
+venv/
+
+# Archivos compilados
+*.pyc
+__pycache__/
+
+# Archivos de configuración del entorno de desarrollo
+.vscode/
+.idea/
+
+# Archivos de caché
+*.log
+*.tmp
+
+# Archivos de datos (excluidos)
+data/
+
+# Archivos específicos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración del entorno de Python
+*.env
+*.venv
+
+# Archivos de prueba
+test/__pycache__/
