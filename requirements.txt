@@ -21,6 +21,7 @@ MarkupSafe==2.1.5
 matplotlib==3.9.2
 mdurl==0.1.2
 ml-dtypes==0.4.0
+mplcursors==0.5.3
 namex==0.0.8
 numpy==1.26.4
 openseespy==3.7.0.1

@@ -16,7 +16,7 @@ hc = (1/8)*2.54 #cm
 
 # propiedades mecanicas
 E = 2039432.43 #kgf/cm2
-E = 1.385*E
+E = 1.38166*E
 Avig = bv*hv #cm2
 Acol = bc*hc #cm2
 Ivig = (bv*hv**3)/12 #cm4
@@ -103,7 +103,7 @@ print(ops.nodeEigenvector(9,2,1))
 print(ops.nodeEigenvector(9,3,1))
 print(ops.nodeEigenvector(9,4,1))
 
-
+#almacenamos los modos en un array
 aux=[]
 for j in range(Nmodes):
     aux.append(ops.nodeEigenvector(9,j+1,1)*100000)
